@@ -1,6 +1,6 @@
-### Как запустить проект:
+### How to run the project:
 
-Клонировать репозиторий и перейти в него в командной строке:
+Clone the repository and open it in the command-line interface:
 
 ```
 git clone https://github.com/practicum-com/kittygram-en.git
@@ -10,7 +10,7 @@ git clone https://github.com/practicum-com/kittygram-en.git
 cd kittygram-en
 ```
 
-Cоздать и активировать виртуальное окружение:
+Create and activate a virtual environment:
 
 ```
 python3 -m venv env
@@ -28,7 +28,7 @@ python3 -m venv env
     source env/scripts/activate
     ```
 
-Установить зависимости из файла requirements.txt:
+Install the dependencies from the requirements.txt file:
 
 ```
 python3 -m pip install --upgrade pip
@@ -38,13 +38,13 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Выполнить миграции:
+Run migrations:
 
 ```
 python3 manage.py migrate
 ```
 
-Запустить проект:
+Run the project:
 
 ```
 python3 manage.py runserver
