@@ -16,13 +16,13 @@ Create and activate a virtual environment:
 python3 -m venv env
 ```
 
-* Если у вас Linux/MacOS
+* In Linux/MacOS
 
     ```
     source env/bin/activate
     ```
 
-* Если у вас windows
+* In Windows
 
     ```
     source env/scripts/activate
